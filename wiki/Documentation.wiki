@@ -83,6 +83,8 @@ http://lh4.ggpht.com/_f-88X0uUHrw/Swhhdzj0I-I/AAAAAAAACY0/zAM3iRZFOJg/Unix%20JCL
 
 ==4. Script Execution==
 
+  * The required database tables can be created by executing tables.sql script in Teradata bteq.
+
   * There are in all three files "jcl.ksh", "bteq.ksh" and database information file "env.dat"
 
   * Information for database viz. server name, database name, username and password is entered in env.dat file.
