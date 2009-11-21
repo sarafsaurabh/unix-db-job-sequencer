@@ -4,7 +4,7 @@
 
   * unix-db-job-sequencer is a lightweight script used to sequence (schedule) dependent Unix shell scripts (Jobs) especially useful for running long lasting ETL and Data Warehousing jobs.
 
-  * This script uses tables viz. `job`, `job_dep` and `job_log` created in RDBMS (currently supports only Teradata RDBMS using native BTEQ CLI).
+  * This script uses tables viz. `job`, `job_dep` and `job_log` created in RDBMS (currently supports only Teradata RDBMS using native BTEQ CLI). It has been tested on Teradata V2R5 and V2R6
 
   * This script uses user defined `job` ids and shell script names in `job` table and job dependencies in `job_dep` table to execute dependent jobs in Unix shell.
 
