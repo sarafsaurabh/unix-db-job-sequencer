@@ -91,4 +91,4 @@ http://lh4.ggpht.com/_f-88X0uUHrw/Swhhdzj0I-I/AAAAAAAACY0/zAM3iRZFOJg/Unix%20JCL
 
   * <font color="red">NOTE: The main sequencer scripts and Job scripts need to placed in the same folder or else the PATH of the folder containing the job scripts is required to be entered manually in “.profile” file.</font>
 
-  * The sequencer is started by executing the jcl script directly (execute access required) or by prefixing it with ksh shell
+  * The sequencer is started by executing the "jcl.ksh" script directly (execute access required) or by prefixing it with the shell name.
